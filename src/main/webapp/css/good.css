@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 20px;
+}
+
+.good_left{
+    float: left;
+    margin: 15px;
+}
+
+.error{
+    color:red;
+}
+
+.good_center{
+    float: left;
+}
+
+.good_right{
+    float: right;
+    margin: 15px;
+}
+.add{
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-right: 20px;
+    float: right;
+}
+#btn_sub{
+    width: 150px;
+    height: 40px;
+    border-color: #047c72;
+    background-color: #047c72;
+    color: white;
+    border-radius: 10px;
+
+}
+#td_sub{
+    padding-left: 150px;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+table td, table th
+{
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
+}
+table thead th
+{
+    background-color: #CCE8EB;
+    width: 100px;
+}
+table tr:nth-child(odd)
+{
+    background: #fff;
+}
+table tr:nth-child(even)
+{
+    background: #F5FAFA;
+}
+/*搜索框1*/
+.bar1 {
+    width: 220px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+.bar1 input {
+    border-radius: 5px;
+    background: #F9F0DA;
+    color: #9E9C9C;
+}
+
